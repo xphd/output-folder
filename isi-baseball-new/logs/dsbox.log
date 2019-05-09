@@ -1,0 +1,1206 @@
+2019-05-09 14:58:13 [INFO] dsbox.controller.controller -- Top level output directory: /output
+2019-05-09 14:58:14 [WARNING] d3m.metadata.base -- d3m.primitives.sri.graph.GraphMatchingParser: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: primitive family segment must match primitive's primitive family. This API will be made mandatory after January 2019 and this warning will become an exception.
+2019-05-09 14:58:14 [WARNING] d3m.metadata.base -- d3m.primitives.sri.graph.GraphMatchingParser: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: must have a known primitive name segment.
+2019-05-09 14:58:14 [WARNING] d3m.metadata.base -- d3m.primitives.sri.graph.GraphTransformer: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: primitive family segment must match primitive's primitive family. This API will be made mandatory after January 2019 and this warning will become an exception.
+2019-05-09 14:58:14 [WARNING] d3m.metadata.base -- d3m.primitives.sri.graph.GraphTransformer: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: must have a known primitive name segment.
+2019-05-09 14:58:14 [WARNING] d3m.metadata.base -- d3m.primitives.sri.psl.LinkPrediction: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: primitive family segment must match primitive's primitive family. This API will be made mandatory after January 2019 and this warning will become an exception.
+2019-05-09 14:58:14 [WARNING] d3m.metadata.base -- d3m.primitives.sri.psl.LinkPrediction: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: must have a known primitive name segment.
+2019-05-09 14:58:14 [WARNING] d3m.metadata.base -- d3m.primitives.sri.psl.GraphMatchingLinkPrediction: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: primitive family segment must match primitive's primitive family. This API will be made mandatory after January 2019 and this warning will become an exception.
+2019-05-09 14:58:14 [WARNING] d3m.metadata.base -- d3m.primitives.sri.psl.GraphMatchingLinkPrediction: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: must have a known primitive name segment.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:SRI_Mean_Baseline_Template has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:default_classification_template has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:naive_bayes_classification_template has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:default_text_classification_template has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:TA1Classification_3 has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:Default_timeseries_collection_template has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:Large_column_number_with_numerical_only_classification has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:classification_with_feature_selection has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.template.library -- DSBoxTemplate:dsbox_classification_template has been added to template base.
+2019-05-09 14:58:14 [INFO] dsbox.datapreprocessing.cleaner.splitter -- This dataset's size is OK, no split on dataset needed.
+2019-05-09 14:58:14 [INFO] dsbox.datapreprocessing.cleaner.splitter -- The input dataset's main resource shape is: (1350, 19)
+2019-05-09 14:58:14 [INFO] dsbox.datapreprocessing.cleaner.splitter -- No sampling need.
+2019-05-09 14:58:14 [INFO] dsbox.controller.controller -- split start!
+2019-05-09 14:58:14 [INFO] dsbox.controller.controller -- split done!
+2019-05-09 14:58:14 [INFO] dsbox.controller.controller -- split start!
+2019-05-09 14:58:14 [INFO] dsbox.controller.controller -- split done!
+2019-05-09 14:58:14 [WARNING] dsbox.JobManager.DistributedJobManager -- timer started: 1.6 min
+2019-05-09 14:58:14 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2019-05-09 14:58:14 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2019-05-09 14:58:14 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2019-05-09 14:58:14 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2019-05-09 14:58:14 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2019-05-09 14:58:14 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2011997751408057020)
+2019-05-09 14:58:14 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2011997751408057020
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5786862344290311435)
+2019-05-09 14:58:15 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5786862344290311435
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7179832684531240009)
+2019-05-09 14:58:15 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7179832684531240009
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6391086695454668303)
+2019-05-09 14:58:15 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6391086695454668303
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4862733547569251604)
+2019-05-09 14:58:15 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4862733547569251604
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7805248401265994729)
+2019-05-09 14:58:15 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7805248401265994729
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (2285640310698047496)
+2019-05-09 14:58:15 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 2285640310698047496
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2812629495124374546)
+2019-05-09 14:58:15 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2812629495124374546
+2019-05-09 14:58:15 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1216212657058580899)
+2019-05-09 14:58:15 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1216212657058580899
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3191212876257848920)
+2019-05-09 14:58:16 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3191212876257848920
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4440545717854124909)
+2019-05-09 14:58:16 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4440545717854124909
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-9189011188162886371)
+2019-05-09 14:58:16 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -9189011188162886371
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8567347459825489742)
+2019-05-09 14:58:16 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8567347459825489742
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-721943171158762328)
+2019-05-09 14:58:16 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -721943171158762328
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:16 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8727598947328587305)
+2019-05-09 14:58:16 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8727598947328587305
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-9189011188162886371)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-9024653893136586525)
+2019-05-09 14:58:17 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -9024653893136586525
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (2669323919107698797)
+2019-05-09 14:58:17 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 2669323919107698797
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-9189011188162886371)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7131911914506628364)
+2019-05-09 14:58:17 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7131911914506628364
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4553999970335974198)
+2019-05-09 14:58:17 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4553999970335974198
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5431661655082383938)
+2019-05-09 14:58:17 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5431661655082383938
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7028669799406082277)
+2019-05-09 14:58:17 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7028669799406082277
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6303655596659687383)
+2019-05-09 14:58:17 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6303655596659687383
+2019-05-09 14:58:17 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1897808621528428079)
+2019-05-09 14:58:17 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1897808621528428079
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4143964543707503116)
+2019-05-09 14:58:18 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4143964543707503116
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2760406287563002077)
+2019-05-09 14:58:18 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2760406287563002077
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2581696828465018819)
+2019-05-09 14:58:18 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2581696828465018819
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6864189942140455991)
+2019-05-09 14:58:18 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6864189942140455991
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-9189011188162886371)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-113587619325750926)
+2019-05-09 14:58:18 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -113587619325750926
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2397130405515789893)
+2019-05-09 14:58:18 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2397130405515789893
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1540967428516107299)
+2019-05-09 14:58:18 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1540967428516107299
+2019-05-09 14:58:18 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3993286747654263218)
+2019-05-09 14:58:18 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3993286747654263218
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1905048951106320872)
+2019-05-09 14:58:19 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1905048951106320872
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-1540967428516107299)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2361372075671038322)
+2019-05-09 14:58:19 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2361372075671038322
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1416084481387399219)
+2019-05-09 14:58:19 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1416084481387399219
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-687415645137760970)
+2019-05-09 14:58:19 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -687415645137760970
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7614508179642779352)
+2019-05-09 14:58:19 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7614508179642779352
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:19 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8965867585086856762)
+2019-05-09 14:58:19 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8965867585086856762
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4481619201690083358)
+2019-05-09 14:58:20 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4481619201690083358
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3683807802140046181)
+2019-05-09 14:58:20 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3683807802140046181
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2131150395240048654)
+2019-05-09 14:58:20 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2131150395240048654
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6197629292313606849)
+2019-05-09 14:58:20 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6197629292313606849
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3127347940616536831)
+2019-05-09 14:58:20 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3127347940616536831
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7928675149874122244)
+2019-05-09 14:58:20 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7928675149874122244
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3042620691067270759)
+2019-05-09 14:58:20 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3042620691067270759
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:20 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6568401732939060868)
+2019-05-09 14:58:20 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6568401732939060868
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7541431296474187916)
+2019-05-09 14:58:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7541431296474187916
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7028669799406082277)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8761271431388892309)
+2019-05-09 14:58:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8761271431388892309
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2212630365707984918)
+2019-05-09 14:58:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2212630365707984918
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5487371565049589825)
+2019-05-09 14:58:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5487371565049589825
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7204898076053097456)
+2019-05-09 14:58:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7204898076053097456
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (2669323919107698797)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1945018296889988782)
+2019-05-09 14:58:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1945018296889988782
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8675586909889223151)
+2019-05-09 14:58:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8675586909889223151
+2019-05-09 14:58:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6950486088132406943)
+2019-05-09 14:58:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6950486088132406943
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-9189011188162886371)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6319134146754015350)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6319134146754015350
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-1540967428516107299)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (173229670790497013)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 173229670790497013
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4643768758243786202)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4643768758243786202
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8674947215893992371)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8674947215893992371
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-739885596480620377)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -739885596480620377
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3370803306137028006)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3370803306137028006
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1637701103242293605)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1637701103242293605
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-1540967428516107299)
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-575714410702535521)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -575714410702535521
+2019-05-09 14:58:22 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1072590891059435589)
+2019-05-09 14:58:22 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1072590891059435589
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8379092509691466241)
+2019-05-09 14:58:23 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8379092509691466241
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-9135932500996394670)
+2019-05-09 14:58:23 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -9135932500996394670
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3075892576995501892)
+2019-05-09 14:58:23 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3075892576995501892
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7596462739337951472)
+2019-05-09 14:58:23 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7596462739337951472
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4682093487783631552)
+2019-05-09 14:58:23 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4682093487783631552
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5073071778705353623)
+2019-05-09 14:58:23 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5073071778705353623
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7104370203547177801)
+2019-05-09 14:58:23 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7104370203547177801
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:23 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (2709853197473251108)
+2019-05-09 14:58:23 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 2709853197473251108
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3287061452961705585)
+2019-05-09 14:58:24 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3287061452961705585
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5552597791023999259)
+2019-05-09 14:58:24 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5552597791023999259
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2538784631693709042)
+2019-05-09 14:58:24 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2538784631693709042
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5501423215068301594)
+2019-05-09 14:58:24 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5501423215068301594
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1877039502305053725)
+2019-05-09 14:58:24 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1877039502305053725
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4803389428554542366)
+2019-05-09 14:58:24 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4803389428554542366
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:24 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5595560481564094203)
+2019-05-09 14:58:24 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5595560481564094203
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5073071778705353623)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7727746110177665561)
+2019-05-09 14:58:25 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7727746110177665561
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-1540967428516107299)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5195489426853807244)
+2019-05-09 14:58:25 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5195489426853807244
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7695570295010209105)
+2019-05-09 14:58:25 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7695570295010209105
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3454567081376031204)
+2019-05-09 14:58:25 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3454567081376031204
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5335421539897055503)
+2019-05-09 14:58:25 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5335421539897055503
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3072355611611512186)
+2019-05-09 14:58:25 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3072355611611512186
+2019-05-09 14:58:25 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2365727138253101950)
+2019-05-09 14:58:25 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2365727138253101950
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-739885596480620377)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2627799103712711002)
+2019-05-09 14:58:26 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2627799103712711002
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-9189011188162886371)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7328109482824547610)
+2019-05-09 14:58:26 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7328109482824547610
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2957199149582779875)
+2019-05-09 14:58:26 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2957199149582779875
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5914885337172551099)
+2019-05-09 14:58:26 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5914885337172551099
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (2294192111688106424)
+2019-05-09 14:58:26 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 2294192111688106424
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3041066604318565702)
+2019-05-09 14:58:26 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3041066604318565702
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8601918266046422483)
+2019-05-09 14:58:26 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8601918266046422483
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-1540967428516107299)
+2019-05-09 14:58:26 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2420906471220127261)
+2019-05-09 14:58:26 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2420906471220127261
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8210254202125355170)
+2019-05-09 14:58:27 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8210254202125355170
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3256261307154558537)
+2019-05-09 14:58:27 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3256261307154558537
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (785878186524411474)
+2019-05-09 14:58:27 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 785878186524411474
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8180504823357511670)
+2019-05-09 14:58:27 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8180504823357511670
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4829607017006855939)
+2019-05-09 14:58:27 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4829607017006855939
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1877348073242848149)
+2019-05-09 14:58:27 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1877348073242848149
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1437144623569127988)
+2019-05-09 14:58:27 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1437144623569127988
+2019-05-09 14:58:27 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7311925107988322702)
+2019-05-09 14:58:27 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7311925107988322702
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5815487068155337723)
+2019-05-09 14:58:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5815487068155337723
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7127668655535584299)
+2019-05-09 14:58:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7127668655535584299
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7469229906071784828)
+2019-05-09 14:58:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7469229906071784828
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3083988896049468634)
+2019-05-09 14:58:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3083988896049468634
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (11858409013228227)
+2019-05-09 14:58:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 11858409013228227
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7909910964269762900)
+2019-05-09 14:58:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7909910964269762900
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3100359302016810680)
+2019-05-09 14:58:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3100359302016810680
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:28 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3064012792148380554)
+2019-05-09 14:58:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3064012792148380554
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (2791098590833997503)
+2019-05-09 14:58:29 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 2791098590833997503
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6079945225528568537)
+2019-05-09 14:58:29 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6079945225528568537
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5443591552485133394)
+2019-05-09 14:58:29 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5443591552485133394
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1735612716507397310)
+2019-05-09 14:58:29 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1735612716507397310
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4461159779377424592)
+2019-05-09 14:58:29 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4461159779377424592
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4747376364348615373)
+2019-05-09 14:58:29 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4747376364348615373
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8770279324547707876)
+2019-05-09 14:58:29 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8770279324547707876
+2019-05-09 14:58:29 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2935161135256135892)
+2019-05-09 14:58:29 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2935161135256135892
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8076006731496924589)
+2019-05-09 14:58:30 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8076006731496924589
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-1540967428516107299)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3504289109151481630)
+2019-05-09 14:58:30 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3504289109151481630
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2457003741156286710)
+2019-05-09 14:58:30 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2457003741156286710
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-9189011188162886371)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2464845208055821270)
+2019-05-09 14:58:30 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2464845208055821270
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7469651955083127798)
+2019-05-09 14:58:30 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7469651955083127798
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7290065242987268937)
+2019-05-09 14:58:30 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7290065242987268937
+2019-05-09 14:58:30 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-682701923516774219)
+2019-05-09 14:58:30 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -682701923516774219
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6532065776680129205)
+2019-05-09 14:58:31 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6532065776680129205
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3586683235152700085)
+2019-05-09 14:58:31 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3586683235152700085
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (2669323919107698797)
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (102617072774038580)
+2019-05-09 14:58:31 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 102617072774038580
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-574871728345221966)
+2019-05-09 14:58:31 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -574871728345221966
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8370619312946338373)
+2019-05-09 14:58:31 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8370619312946338373
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5073071778705353623)
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8885466407584340192)
+2019-05-09 14:58:31 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8885466407584340192
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:31 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5495252735811220422)
+2019-05-09 14:58:31 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5495252735811220422
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-260656758031739631)
+2019-05-09 14:58:32 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -260656758031739631
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3538873426201968448)
+2019-05-09 14:58:32 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3538873426201968448
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6658819193965654178)
+2019-05-09 14:58:32 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6658819193965654178
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1125900647753931019)
+2019-05-09 14:58:32 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1125900647753931019
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (2669323919107698797)
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3229271503434593055)
+2019-05-09 14:58:32 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3229271503434593055
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7028669799406082277)
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5160623780895877857)
+2019-05-09 14:58:32 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5160623780895877857
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4882674702516984212)
+2019-05-09 14:58:32 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4882674702516984212
+2019-05-09 14:58:32 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7759137744156574641)
+2019-05-09 14:58:32 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7759137744156574641
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7028669799406082277)
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5684235828365763345)
+2019-05-09 14:58:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5684235828365763345
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3207168437440218830)
+2019-05-09 14:58:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3207168437440218830
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7255823958961607464)
+2019-05-09 14:58:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7255823958961607464
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5483378081928369026)
+2019-05-09 14:58:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5483378081928369026
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1143131760604692532)
+2019-05-09 14:58:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1143131760604692532
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3614622239378232060)
+2019-05-09 14:58:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3614622239378232060
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-571494979172094718)
+2019-05-09 14:58:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -571494979172094718
+2019-05-09 14:58:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2363816235581443385)
+2019-05-09 14:58:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2363816235581443385
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1457395159791792995)
+2019-05-09 14:58:34 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1457395159791792995
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7028669799406082277)
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3988582555642021572)
+2019-05-09 14:58:34 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3988582555642021572
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8575737480967853579)
+2019-05-09 14:58:34 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8575737480967853579
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (630494916579421865)
+2019-05-09 14:58:34 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 630494916579421865
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8652669678383636532)
+2019-05-09 14:58:34 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8652669678383636532
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7267998410849198721)
+2019-05-09 14:58:34 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7267998410849198721
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1741207906700603901)
+2019-05-09 14:58:34 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1741207906700603901
+2019-05-09 14:58:34 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5418933876754153967)
+2019-05-09 14:58:34 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5418933876754153967
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8990895298075589990)
+2019-05-09 14:58:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8990895298075589990
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-884203053800721722)
+2019-05-09 14:58:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -884203053800721722
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5333306939284718104)
+2019-05-09 14:58:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5333306939284718104
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1343523901797857429)
+2019-05-09 14:58:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1343523901797857429
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8927907228215570721)
+2019-05-09 14:58:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8927907228215570721
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3247143531048702606)
+2019-05-09 14:58:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3247143531048702606
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (717212098929007234)
+2019-05-09 14:58:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 717212098929007234
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4035913095995936754)
+2019-05-09 14:58:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4035913095995936754
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-267435290157459920)
+2019-05-09 14:58:36 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -267435290157459920
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5622426286974958757)
+2019-05-09 14:58:36 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5622426286974958757
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7028669799406082277)
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3913047562874043869)
+2019-05-09 14:58:36 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3913047562874043869
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (190110389998932192)
+2019-05-09 14:58:36 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 190110389998932192
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4157277434984000991)
+2019-05-09 14:58:36 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4157277434984000991
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5073071778705353623)
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6191474185768884709)
+2019-05-09 14:58:36 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6191474185768884709
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-9189011188162886371)
+2019-05-09 14:58:36 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-409929088382859131)
+2019-05-09 14:58:36 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -409929088382859131
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6801290690003550658)
+2019-05-09 14:58:37 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6801290690003550658
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3331558446237962644)
+2019-05-09 14:58:37 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3331558446237962644
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4553846901872032700)
+2019-05-09 14:58:37 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4553846901872032700
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6181545667361592860)
+2019-05-09 14:58:37 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6181545667361592860
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4151468262171366242)
+2019-05-09 14:58:37 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4151468262171366242
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7028669799406082277)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3206873998125154711)
+2019-05-09 14:58:37 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3206873998125154711
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4313310622848536983)
+2019-05-09 14:58:37 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4313310622848536983
+2019-05-09 14:58:37 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7325139582208100259)
+2019-05-09 14:58:37 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7325139582208100259
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4975130951487503209)
+2019-05-09 14:58:38 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4975130951487503209
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (253597451894919888)
+2019-05-09 14:58:38 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 253597451894919888
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2032817467597049612)
+2019-05-09 14:58:38 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2032817467597049612
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-35760967478817882)
+2019-05-09 14:58:38 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -35760967478817882
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4103080224892183483)
+2019-05-09 14:58:38 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4103080224892183483
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (2669323919107698797)
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6401439882997196882)
+2019-05-09 14:58:38 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6401439882997196882
+2019-05-09 14:58:38 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7796430059041811570)
+2019-05-09 14:58:38 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7796430059041811570
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3402698630745613345)
+2019-05-09 14:58:39 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3402698630745613345
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-1540967428516107299)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (73143796386992984)
+2019-05-09 14:58:39 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 73143796386992984
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4998121487252436406)
+2019-05-09 14:58:39 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4998121487252436406
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-426557146210832858)
+2019-05-09 14:58:39 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -426557146210832858
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7642255693283373466)
+2019-05-09 14:58:39 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7642255693283373466
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3552450190220816852)
+2019-05-09 14:58:39 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3552450190220816852
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8788985798206718598)
+2019-05-09 14:58:39 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8788985798206718598
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:39 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6341841192277323879)
+2019-05-09 14:58:39 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6341841192277323879
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8842935065039016441)
+2019-05-09 14:58:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8842935065039016441
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5966125732322626187)
+2019-05-09 14:58:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5966125732322626187
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6553530370576851007)
+2019-05-09 14:58:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6553530370576851007
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-1540967428516107299)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4705037937602512351)
+2019-05-09 14:58:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4705037937602512351
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7944176544983894788)
+2019-05-09 14:58:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7944176544983894788
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5231518314372999980)
+2019-05-09 14:58:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5231518314372999980
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5206566443215487297)
+2019-05-09 14:58:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5206566443215487297
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1888660246283846673)
+2019-05-09 14:58:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1888660246283846673
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (2669323919107698797)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1003901451580608787)
+2019-05-09 14:58:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1003901451580608787
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (9021177047798334480)
+2019-05-09 14:58:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 9021177047798334480
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8703086683270055079)
+2019-05-09 14:58:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8703086683270055079
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-9189011188162886371)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7179832684531240009)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4362918326534446734)
+2019-05-09 14:58:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4362918326534446734
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8751360081758754904)
+2019-05-09 14:58:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8751360081758754904
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1067242999917275091)
+2019-05-09 14:58:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1067242999917275091
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-872956145442109119)
+2019-05-09 14:58:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -872956145442109119
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (70948558124163495)
+2019-05-09 14:58:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 70948558124163495
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8426309601435939542)
+2019-05-09 14:58:42 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8426309601435939542
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (2436802041774880584)
+2019-05-09 14:58:42 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 2436802041774880584
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4972610545147910531)
+2019-05-09 14:58:42 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4972610545147910531
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (6303655596659687383)
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5961086607549307580)
+2019-05-09 14:58:42 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5961086607549307580
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4306150986722851816)
+2019-05-09 14:58:42 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4306150986722851816
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7632599249082045470)
+2019-05-09 14:58:42 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7632599249082045470
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2420030411203333905)
+2019-05-09 14:58:42 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2420030411203333905
+2019-05-09 14:58:42 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-729678210822403301)
+2019-05-09 14:58:42 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -729678210822403301
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4846669485674723450)
+2019-05-09 14:58:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4846669485674723450
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8298733786146412902)
+2019-05-09 14:58:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8298733786146412902
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7710357000215817403)
+2019-05-09 14:58:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7710357000215817403
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8701005744871989601)
+2019-05-09 14:58:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8701005744871989601
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6562786011643457297)
+2019-05-09 14:58:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6562786011643457297
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5073071778705353623)
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-7805248401265994729)
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1405565877303941307)
+2019-05-09 14:58:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1405565877303941307
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (3182599683438488500)
+2019-05-09 14:58:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 3182599683438488500
+2019-05-09 14:58:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5023932260055052756)
+2019-05-09 14:58:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5023932260055052756
+2019-05-09 14:58:44 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:44 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (4440545717854124909)
+2019-05-09 14:58:44 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (6026817558424433848)
+2019-05-09 14:58:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 6026817558424433848
+2019-05-09 14:58:44 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4509007435538164858)
+2019-05-09 14:58:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4509007435538164858
+2019-05-09 14:58:44 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:44 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (-2011997751408057020)
+2019-05-09 14:58:44 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (1897808621528428079)
+2019-05-09 14:58:44 [INFO] dsbox.JobManager.cache -- [INFO] hit@Candidate: (5786862344290311435)
+2019-05-09 14:58:45 [INFO] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- Main Process jobs_completed:0, timeout=64.51677517799908
+2019-05-09 14:58:45 [INFO] dsbox.JobManager.DistributedJobManager -- # ongoing_jobs 226
+2019-05-09 14:58:45 [WARNING] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- kwargs: {'target_obj': <dsbox.combinatorial_search.ConfigurationSpaceBaseSearch.ConfigurationSpaceBaseSearch object at 0x7fe4c0599080>, 'target_method': 'evaluate_pipeline', 'kwargs': {'args': ({'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'encode2_step': {'primitive': 'd3m.primitives.data_cleaning.Labeler.DSBOX', 'hyperparameters': {}}, 'to_numeric_step': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {}}, 'model_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, <dsbox.JobManager.cache.PrimitivesCache object at 0x7fe4c04e5b38>, True)}}
+2019-05-09 14:58:45 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -2011997751408057020
+2019-05-09 14:58:45 [WARNING] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- NoneType: None
+
+2019-05-09 14:58:45 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-2011997751408057020)
+2019-05-09 14:58:45 [INFO] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- Main Process jobs_completed:1, timeout=64.49526155499916
+2019-05-09 14:58:45 [INFO] dsbox.JobManager.DistributedJobManager -- # ongoing_jobs 225
+2019-05-09 14:58:45 [WARNING] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- kwargs: {'target_obj': <dsbox.combinatorial_search.ConfigurationSpaceBaseSearch.ConfigurationSpaceBaseSearch object at 0x7fe4c0599860>, 'target_method': 'evaluate_pipeline', 'kwargs': {'args': ({'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'pre_extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {'drop_non_numeric_columns': False}}, 'timeseries_to_list_step': {'primitive': 'd3m.primitives.data_preprocessing.TimeseriesToList.DSBOX', 'hyperparameters': {}}, 'random_projection_step': {'primitive': 'd3m.primitives.feature_extraction.RandomProjectionTimeSeriesFeaturization.DSBOX', 'hyperparameters': {'generate_metadata': True}}, 'random_forest_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, <dsbox.JobManager.cache.PrimitivesCache object at 0x7fe4c04361d0>, True)}}
+2019-05-09 14:58:45 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate 5786862344290311435
+2019-05-09 14:58:45 [WARNING] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- NoneType: None
+
+2019-05-09 14:58:45 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (5786862344290311435)
+2019-05-09 14:58:45 [INFO] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- Main Process jobs_completed:2, timeout=64.46202768799958
+2019-05-09 14:58:45 [INFO] dsbox.JobManager.DistributedJobManager -- # ongoing_jobs 224
+2019-05-09 14:58:45 [WARNING] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- kwargs: {'target_obj': <dsbox.combinatorial_search.ConfigurationSpaceBaseSearch.ConfigurationSpaceBaseSearch object at 0x7fe4c04fb198>, 'target_method': 'evaluate_pipeline', 'kwargs': {'args': ({'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'profile_step': {'primitive': 'd3m.primitives.schema_discovery.Profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothing.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.MeanImputation.DSBOX', 'hyperparameters': {}}, 'label_step': {'primitive': 'd3m.primitives.data_cleaning.Labeler.DSBOX', 'hyperparameters': {}}, 'corex_step': {'primitive': 'd3m.primitives.feature_construction.corex_text.CorexText', 'hyperparameters': {}}, 'model_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, <dsbox.JobManager.cache.PrimitivesCache object at 0x7fe4c037e2b0>, True)}}
+2019-05-09 14:58:45 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=5813b341-d31e-4a7a-908a-74034911cbc5
+2019-05-09 14:58:45 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-7179832684531240009)
+2019-05-09 14:58:45 [INFO] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- Main Process jobs_completed:3, timeout=64.43422588499925
+2019-05-09 14:58:45 [INFO] dsbox.JobManager.DistributedJobManager -- # ongoing_jobs 223
+2019-05-09 14:58:55 [WARNING] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- kwargs: {'target_obj': <dsbox.combinatorial_search.ConfigurationSpaceBaseSearch.ConfigurationSpaceBaseSearch object at 0x7fe4c0436160>, 'target_method': 'evaluate_pipeline', 'kwargs': {'args': ({'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'profiler_step': {'primitive': 'd3m.primitives.schema_discovery.Profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothing.DSBOX', 'hyperparameters': {}}, 'encoder_step': {'primitive': 'd3m.primitives.data_preprocessing.Encoder.DSBOX', 'hyperparameters': {}}, 'to_numeric_step': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.MeanImputation.DSBOX', 'hyperparameters': {}}, 'pre_extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {'drop_non_numeric_columns': False}}, 'feature_selector_step': {'primitive': 'd3m.primitives.feature_selection.generic_univariate_select.SKlearn', 'hyperparameters': {'use_semantic_types': True, 'return_result': 'new', 'add_index_columns': True, 'mode': 'percentile', 'param': 7}}, 'model_step': {'primitive': 'd3m.primitives.classification.gradient_boosting.SKlearn', 'hyperparameters': {'use_semantic_types': True, 'return_result': 'new', 'add_index_columns': True, 'max_depth': 2, 'n_estimators': 100, 'learning_rate': 0.3, 'min_samples_split': 2, 'min_samples_leaf': 1}}}, <dsbox.JobManager.cache.PrimitivesCache object at 0x7fe4c02557b8>, True)}}
+2019-05-09 14:58:55 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=32e0855d-047d-49eb-9f4f-fa42f34c694e
+2019-05-09 14:58:55 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-6391086695454668303)
+2019-05-09 14:58:55 [INFO] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- Main Process jobs_completed:4, timeout=54.86207889599973
+2019-05-09 14:58:55 [INFO] dsbox.JobManager.DistributedJobManager -- # ongoing_jobs 222
+2019-05-09 14:59:09 [WARNING] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- kwargs: {'target_obj': <dsbox.combinatorial_search.ConfigurationSpaceBaseSearch.ConfigurationSpaceBaseSearch object at 0x7fe4c037e198>, 'target_method': 'evaluate_pipeline', 'kwargs': {'args': ({'sampling_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothingForDataset.DSBOX', 'hyperparameters': {}}, 'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'profiler_step': {'primitive': 'd3m.primitives.schema_discovery.Profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothing.DSBOX', 'hyperparameters': {}}, 'encoder_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothing.DSBOX', 'hyperparameters': {}}, 'corex_step': {'primitive': 'd3m.primitives.feature_construction.corex_text.CorexText', 'hyperparameters': {'n_hidden': 5, 'threshold': 0, 'n_grams': 3}}, 'to_numeric_step': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.MeanImputation.DSBOX', 'hyperparameters': {}}, 'data': {'primitive': 'd3m.primitives.normalization.IQRScaler.DSBOX', 'hyperparameters': {}}, 'pre_target': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'target': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {'drop_non_numeric_columns': False}}, 'model_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, <dsbox.JobManager.cache.PrimitivesCache object at 0x7fe4c04364a8>, True)}}
+2019-05-09 14:59:09 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=e2b6ff0a-3de6-47ab-b239-443bcf2de160
+2019-05-09 14:59:09 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (4862733547569251604)
+2019-05-09 14:59:09 [INFO] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- Main Process jobs_completed:5, timeout=40.44737878599881
+2019-05-09 14:59:09 [INFO] dsbox.JobManager.DistributedJobManager -- # ongoing_jobs 221
+2019-05-09 14:59:28 [WARNING] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- kwargs: {'target_obj': <dsbox.combinatorial_search.ConfigurationSpaceBaseSearch.ConfigurationSpaceBaseSearch object at 0x7fe4c0255710>, 'target_method': 'evaluate_pipeline', 'kwargs': {'args': ({'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'profile_step': {'primitive': 'd3m.primitives.schema_discovery.Profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_cleaning.CleaningFeaturizer.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.MeanImputation.DSBOX', 'hyperparameters': {}}, 'label_step': {'primitive': 'd3m.primitives.data_cleaning.Labeler.DSBOX', 'hyperparameters': {}}, 'corex_step': {'primitive': 'd3m.primitives.feature_construction.corex_text.CorexText', 'hyperparameters': {}}, 'model_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, <dsbox.JobManager.cache.PrimitivesCache object at 0x7fe4c01b6518>, True)}}
+2019-05-09 14:59:28 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=b489cb71-3b30-468c-90ba-d207dfd70f7e
+2019-05-09 14:59:28 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-7805248401265994729)
+2019-05-09 14:59:28 [INFO] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- Main Process jobs_completed:6, timeout=21.894365227999515
+2019-05-09 14:59:28 [INFO] dsbox.JobManager.DistributedJobManager -- # ongoing_jobs 220
+2019-05-09 14:59:49 [INFO] dsbox.combinatorial_search.TemplateSpaceParallelBaseSearch -- Timed out waiting for pending job
+2019-05-09 14:59:49 [INFO] dsbox.JobManager.cache -- Cleanup Cache Manager. candidate_cache:226 primitive_cache:70
+2019-05-09 14:59:49 [INFO] dsbox.JobManager.DistributedJobManager -- Clearing 220 jobs from queue
+2019-05-09 14:59:53 [INFO] dsbox.controller.controller -- ******************
+[INFO] Writing results
+2019-05-09 14:59:53 [INFO] dsbox.controller.controller -- training_metrics f1Macro = 0.9881332747899295
+2019-05-09 14:59:53 [INFO] dsbox.controller.controller -- cross_validation_metrics f1Macro = 0.6508081908577591
+2019-05-09 14:59:53 [INFO] dsbox.controller.controller -- test_metrics f1Macro = 0.6696724328303275
+2019-05-09 14:59:53 [INFO] dsbox.JobManager.DistributedJobManager -- Clearing 0 jobs from queue
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     Found 4 solutions.
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | DONE: GetSearchSolutionsResults invoked with search_id: EYWZDET0XNUSA5UMGLLFMB
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | ScoreSolution invoked with solution_id: 5813b341-d31e-4a7a-908a-74034911cbc5
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | GetScoreSolutionResults invoked with request_id: NNST8XCUYB7TFDNL5BL0PG
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     Return search solution: {'id': '5813b341-d31e-4a7a-908a-74034911cbc5', 'training_metrics': [{'column_name': 'Hall_of_Fame', 'metric': 'f1Macro', 'value': 0.9190830130264854}], 'cross_validation_metrics': [{'metric': 'f1Macro', 'value': 0.5785529206642864, 'values': [0.48966408268733846, 0.5919398907103826, 0.6004444444444444, 0.5260213374967473, 0.4327712926934717, 0.6290403228686738, 0.6429196350456192, 0.6889051808406647, 0.42081949058693247, 0.7630035292685894], 'targets': []}], 'test_metrics': [{'column_name': 'Hall_of_Fame', 'metric': 'f1Macro', 'value': 0.3164721141374838}], 'total_runtime': 23.964332103729248, 'configuration': {'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'profile_step': {'primitive': 'd3m.primitives.schema_discovery.Profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothing.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.MeanImputation.DSBOX', 'hyperparameters': {}}, 'label_step': {'primitive': 'd3m.primitives.data_cleaning.Labeler.DSBOX', 'hyperparameters': {}}, 'corex_step': {'primitive': 'd3m.primitives.feature_construction.corex_text.CorexText', 'hyperparameters': {}}, 'model_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, 'ensemble_tuning_result': None, 'ensemble_tuning_metrics': None, 'template_name': 'TA1Classification_3', 'sim_count': 1}
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     Returning 1 results
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | progress {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | scores {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   metric {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     metric: F1_MACRO
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   targets {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     resource_id: "learningData"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     column_index: 18
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     column_name: "Hall_of_Fame"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   value {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     raw {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |       double: 0.3164721141374838
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | ScoreSolution invoked with solution_id: 32e0855d-047d-49eb-9f4f-fa42f34c694e
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | GetScoreSolutionResults invoked with request_id: A91JP14MHL1FY0KOJGO4H4
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     Return search solution: {'id': '32e0855d-047d-49eb-9f4f-fa42f34c694e', 'training_metrics': [{'column_name': 'Hall_of_Fame', 'metric': 'f1Macro', 'value': 0.9607823259404293}], 'cross_validation_metrics': [], 'test_metrics': [{'column_name': 'Hall_of_Fame', 'metric': 'f1Macro', 'value': 0.48373983739837406}], 'total_runtime': 8.922188520431519, 'configuration': {'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'profiler_step': {'primitive': 'd3m.primitives.schema_discovery.Profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothing.DSBOX', 'hyperparameters': {}}, 'encoder_step': {'primitive': 'd3m.primitives.data_preprocessing.Encoder.DSBOX', 'hyperparameters': {}}, 'to_numeric_step': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.MeanImputation.DSBOX', 'hyperparameters': {}}, 'pre_extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {'drop_non_numeric_columns': False}}, 'feature_selector_step': {'primitive': 'd3m.primitives.feature_selection.generic_univariate_select.SKlearn', 'hyperparameters': {'use_semantic_types': True, 'return_result': 'new', 'add_index_columns': True, 'mode': 'percentile', 'param': 7}}, 'model_step': {'primitive': 'd3m.primitives.classification.gradient_boosting.SKlearn', 'hyperparameters': {'use_semantic_types': True, 'return_result': 'new', 'add_index_columns': True, 'max_depth': 2, 'n_estimators': 100, 'learning_rate': 0.3, 'min_samples_split': 2, 'min_samples_leaf': 1}}}, 'ensemble_tuning_result': None, 'ensemble_tuning_metrics': None, 'template_name': 'classification_with_feature_selection', 'sim_count': 1}
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     Returning 1 results
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | progress {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | scores {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   metric {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     metric: F1_MACRO
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   targets {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     resource_id: "learningData"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     column_index: 18
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     column_name: "Hall_of_Fame"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   value {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     raw {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |       double: 0.48373983739837406
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | ScoreSolution invoked with solution_id: e2b6ff0a-3de6-47ab-b239-443bcf2de160
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | GetScoreSolutionResults invoked with request_id: HCK0QMU5HEV4EF02P05ZFA
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     Return search solution: {'id': 'e2b6ff0a-3de6-47ab-b239-443bcf2de160', 'training_metrics': [{'column_name': 'Hall_of_Fame', 'metric': 'f1Macro', 'value': 0.9881332747899295}], 'cross_validation_metrics': [{'metric': 'f1Macro', 'value': 0.6508081908577591, 'values': [0.6067907995618839, 0.5448888888888889, 0.572522033079802, 0.6804949436528385, 0.7092599299770614, 0.6364366557137642, 0.6123541786192389, 0.6309435821630944, 0.7896028558679161, 0.7247880410531012], 'targets': []}], 'test_metrics': [{'column_name': 'Hall_of_Fame', 'metric': 'f1Macro', 'value': 0.6696724328303275}], 'total_runtime': 13.041435480117798, 'configuration': {'sampling_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothingForDataset.DSBOX', 'hyperparameters': {}}, 'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'profiler_step': {'primitive': 'd3m.primitives.schema_discovery.Profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothing.DSBOX', 'hyperparameters': {}}, 'encoder_step': {'primitive': 'd3m.primitives.data_preprocessing.DoNothing.DSBOX', 'hyperparameters': {}}, 'corex_step': {'primitive': 'd3m.primitives.feature_construction.corex_text.CorexText', 'hyperparameters': {'n_hidden': 5, 'threshold': 0, 'n_grams': 3}}, 'to_numeric_step': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.MeanImputation.DSBOX', 'hyperparameters': {}}, 'data': {'primitive': 'd3m.primitives.normalization.IQRScaler.DSBOX', 'hyperparameters': {}}, 'pre_target': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'target': {'primitive': 'd3m.primitives.data_transformation.ToNumeric.DSBOX', 'hyperparameters': {'drop_non_numeric_columns': False}}, 'model_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, 'ensemble_tuning_result': None, 'ensemble_tuning_metrics': None, 'template_name': 'default_text_classification_template', 'sim_count': 1}
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     Returning 1 results
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | progress {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | scores {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   metric {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     metric: F1_MACRO
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   targets {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     resource_id: "learningData"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     column_index: 18
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     column_name: "Hall_of_Fame"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   value {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     raw {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |       double: 0.6696724328303275
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | ScoreSolution invoked with solution_id: b489cb71-3b30-468c-90ba-d207dfd70f7e
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | GetScoreSolutionResults invoked with request_id: F84P1A0BIC7YOZTQNPWZ3G
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     Return search solution: {'id': 'b489cb71-3b30-468c-90ba-d207dfd70f7e', 'training_metrics': [{'column_name': 'Hall_of_Fame', 'metric': 'f1Macro', 'value': 0.9681049230335056}], 'cross_validation_metrics': [{'metric': 'f1Macro', 'value': 0.6279298243278768, 'values': [0.5306034216540053, 0.5250479679051108, 0.5365560365560366, 0.5582114854842127, 0.657516339869281, 0.7086598199568911, 0.6429196350456192, 0.7586021505376345, 0.5860566448801743, 0.7751247413898016], 'targets': []}], 'test_metrics': [{'column_name': 'Hall_of_Fame', 'metric': 'f1Macro', 'value': 0.4336043360433604}], 'total_runtime': 14.999698162078857, 'configuration': {'denormalize_step': {'primitive': 'd3m.primitives.data_transformation.denormalize.Common', 'hyperparameters': {}}, 'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.DataFrameCommon', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'profile_step': {'primitive': 'd3m.primitives.schema_discovery.Profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_cleaning.CleaningFeaturizer.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.MeanImputation.DSBOX', 'hyperparameters': {}}, 'label_step': {'primitive': 'd3m.primitives.data_cleaning.Labeler.DSBOX', 'hyperparameters': {}}, 'corex_step': {'primitive': 'd3m.primitives.feature_construction.corex_text.CorexText', 'hyperparameters': {}}, 'model_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, 'ensemble_tuning_result': None, 'ensemble_tuning_metrics': None, 'template_name': 'TA1Classification_3', 'sim_count': 1}
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     Returning 1 results
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | progress {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | scores {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   metric {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     metric: F1_MACRO
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   targets {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     resource_id: "learningData"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     column_index: 18
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     column_name: "Hall_of_Fame"
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   value {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     raw {
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |       double: 0.4336043360433604
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |     }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     |   }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     | DescribeSolution invoked with soution_id 5813b341-d31e-4a7a-908a-74034911cbc5
+2019-05-09 14:59:53 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:53 [WARNING] d3m.metadata.pipeline -- Digest for pipeline 'ba9d4e36-63b3-482e-b079-fa4b97d000d0' does not match a computed one. Provided digest: 93a271610f8ac18cf7ef3c2a24e32c4b3bd6ac84ba24b0b60dbda2cc86a7eacc. Computed digest: db4de57a6d8d99568f680654938c0af6d853e62c44c4996c736a6b8dfd187a98.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.base -- d3m.primitives.data_preprocessing.DoNothing.DSBOX: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: must have a known primitive name segment.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.base -- d3m.primitives.data_preprocessing.DoNothingForDataset.DSBOX: Primitive's Python path does not adhere to d3m.primitives namespace specification (see https://gitlab.com/datadrivendiscovery/d3m/issues/3). Reason: must have a known primitive name segment.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | DescribeSolution invoked with soution_id 32e0855d-047d-49eb-9f4f-fa42f34c694e
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '7e8da2c4-ecce-46cd-a04b-03a0f1fc059f' does not match a computed one. Provided digest: d633b5c0d1dd8ab4db22e48c09015be350060e07d532f6ff3c62e2a6804970e9. Computed digest: 4ececab4dda7eb48635965b197554675bebfd205bfb3d6cef509d03b1fd7272a.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | DescribeSolution invoked with soution_id e2b6ff0a-3de6-47ab-b239-443bcf2de160
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '0e49a87e-8e2a-45d5-a34f-87787aa95d0d' does not match a computed one. Provided digest: 67f8d86f6a8271daf4d5a0953236f28f8fafc322d2c8d9cd52c555b7eab57c74. Computed digest: 0dc4ab5f2ec46bd3e33222e861592a3dd5cbd264af2fcbefe922a2a8825ad225.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | DescribeSolution invoked with soution_id b489cb71-3b30-468c-90ba-d207dfd70f7e
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '83836430-fb83-436f-a47f-25136666d150' does not match a computed one. Provided digest: 6bd5c5a8582c5ebc519e76f9a144210039232c8d3a999c5ec4e563c7ae78baf2. Computed digest: 51bb0d3066034914f5d8ea434ce03ac1ed7eeace551bc3d007a9381eaa6b6fc0.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:54 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | FitSolution invoked with request_id 5813b341-d31e-4a7a-908a-74034911cbc5
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | solution_id: "5813b341-d31e-4a7a-908a-74034911cbc5"
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/185_baseball/185_baseball_dataset/datasetDoc.json"
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | request_id: "K275BNIEWMOHJBY0988ADR"
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     | GetFitSolutionResults invoked with request_id K275BNIEWMOHJBY0988ADR
+2019-05-09 14:59:54 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline -- Digest for pipeline 'ba9d4e36-63b3-482e-b079-fa4b97d000d0' does not match a computed one. Provided digest: 93a271610f8ac18cf7ef3c2a24e32c4b3bd6ac84ba24b0b60dbda2cc86a7eacc. Computed digest: db4de57a6d8d99568f680654938c0af6d853e62c44c4996c736a6b8dfd187a98.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Reuse fitted pipeline
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | FitSolution invoked with request_id 32e0855d-047d-49eb-9f4f-fa42f34c694e
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | solution_id: "32e0855d-047d-49eb-9f4f-fa42f34c694e"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/185_baseball/185_baseball_dataset/datasetDoc.json"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | request_id: "KZPM8XQ619P1DYFM7CV46Z"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | GetFitSolutionResults invoked with request_id KZPM8XQ619P1DYFM7CV46Z
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '7e8da2c4-ecce-46cd-a04b-03a0f1fc059f' does not match a computed one. Provided digest: d633b5c0d1dd8ab4db22e48c09015be350060e07d532f6ff3c62e2a6804970e9. Computed digest: 4ececab4dda7eb48635965b197554675bebfd205bfb3d6cef509d03b1fd7272a.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Reuse fitted pipeline
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | FitSolution invoked with request_id e2b6ff0a-3de6-47ab-b239-443bcf2de160
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | solution_id: "e2b6ff0a-3de6-47ab-b239-443bcf2de160"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/185_baseball/185_baseball_dataset/datasetDoc.json"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | request_id: "HC6WN8UD96QWM24SL40JSA"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | GetFitSolutionResults invoked with request_id HC6WN8UD96QWM24SL40JSA
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '0e49a87e-8e2a-45d5-a34f-87787aa95d0d' does not match a computed one. Provided digest: 67f8d86f6a8271daf4d5a0953236f28f8fafc322d2c8d9cd52c555b7eab57c74. Computed digest: 0dc4ab5f2ec46bd3e33222e861592a3dd5cbd264af2fcbefe922a2a8825ad225.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Reuse fitted pipeline
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | FitSolution invoked with request_id b489cb71-3b30-468c-90ba-d207dfd70f7e
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | solution_id: "b489cb71-3b30-468c-90ba-d207dfd70f7e"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/185_baseball/185_baseball_dataset/datasetDoc.json"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | request_id: "7T8CWZV8LF2P3U63WE700H"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | GetFitSolutionResults invoked with request_id 7T8CWZV8LF2P3U63WE700H
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '83836430-fb83-436f-a47f-25136666d150' does not match a computed one. Provided digest: 6bd5c5a8582c5ebc519e76f9a144210039232c8d3a999c5ec4e563c7ae78baf2. Computed digest: 51bb0d3066034914f5d8ea434ce03ac1ed7eeace551bc3d007a9381eaa6b6fc0.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Reuse fitted pipeline
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | ProduceSolution invoked with request_id 5813b341-d31e-4a7a-908a-74034911cbc5
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | fitted_solution_id: "5813b341-d31e-4a7a-908a-74034911cbc5"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/185_baseball/185_baseball_dataset/datasetDoc.json"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | GetProduceSolutionResults invoked with request_id WUBRCETQ6V6E7ZJZTCS738
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2019-05-09 14:59:55 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline -- Digest for pipeline 'ba9d4e36-63b3-482e-b079-fa4b97d000d0' does not match a computed one. Provided digest: 93a271610f8ac18cf7ef3c2a24e32c4b3bd6ac84ba24b0b60dbda2cc86a7eacc. Computed digest: db4de57a6d8d99568f680654938c0af6d853e62c44c4996c736a6b8dfd187a98.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:55 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     | ProduceSolution invoked with request_id 32e0855d-047d-49eb-9f4f-fa42f34c694e
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     | fitted_solution_id: "32e0855d-047d-49eb-9f4f-fa42f34c694e"
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/185_baseball/185_baseball_dataset/datasetDoc.json"
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     | GetProduceSolutionResults invoked with request_id DBB2LMIZBKNTXICNLT9SHT
+2019-05-09 14:59:56 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:57 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2019-05-09 14:59:57 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '7e8da2c4-ecce-46cd-a04b-03a0f1fc059f' does not match a computed one. Provided digest: d633b5c0d1dd8ab4db22e48c09015be350060e07d532f6ff3c62e2a6804970e9. Computed digest: 4ececab4dda7eb48635965b197554675bebfd205bfb3d6cef509d03b1fd7272a.
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:57 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:57 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:4388: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2019-05-09 14:59:57 [ERROR] redirect --   object.__getattribute__(self, name)
+2019-05-09 14:59:57 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:4389: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2019-05-09 14:59:57 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     | ProduceSolution invoked with request_id e2b6ff0a-3de6-47ab-b239-443bcf2de160
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     | fitted_solution_id: "e2b6ff0a-3de6-47ab-b239-443bcf2de160"
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/185_baseball/185_baseball_dataset/datasetDoc.json"
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     | GetProduceSolutionResults invoked with request_id JIPQK0J5PLQAQK09ZJ5I4Q
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2019-05-09 14:59:58 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '0e49a87e-8e2a-45d5-a34f-87787aa95d0d' does not match a computed one. Provided digest: 67f8d86f6a8271daf4d5a0953236f28f8fafc322d2c8d9cd52c555b7eab57c74. Computed digest: 0dc4ab5f2ec46bd3e33222e861592a3dd5cbd264af2fcbefe922a2a8825ad225.
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:58 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:58 [INFO] dsbox.datapreprocessing.cleaner.splitter -- The input dataset's main resource shape is: (1350, 19)
+2019-05-09 14:59:58 [INFO] dsbox.datapreprocessing.cleaner.splitter -- No sampling need.
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     | ProduceSolution invoked with request_id b489cb71-3b30-468c-90ba-d207dfd70f7e
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     | fitted_solution_id: "b489cb71-3b30-468c-90ba-d207dfd70f7e"
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/185_baseball/185_baseball_dataset/datasetDoc.json"
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     | }
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     | GetProduceSolutionResults invoked with request_id C550V2N99S4G135TPFETDE
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2019-05-09 14:59:59 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline -- Digest for pipeline '83836430-fb83-436f-a47f-25136666d150' does not match a computed one. Provided digest: 6bd5c5a8582c5ebc519e76f9a144210039232c8d3a999c5ec4e563c7ae78baf2. Computed digest: 51bb0d3066034914f5d8ea434ce03ac1ed7eeace551bc3d007a9381eaa6b6fc0.
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- 'worker_id' was generated using the MAC address inside Docker container and is not a reliable compute resource identifier.
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_NAME
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_BASE_IMAGE_DIGEST
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_NAME
+2019-05-09 14:59:59 [WARNING] d3m.metadata.pipeline_run.runtime_environment -- Docker image environment variable not set: D3M_IMAGE_DIGEST
+2019-05-09 15:00:00 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2019-05-09 15:00:00 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2019-05-09 15:00:00 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[18, 19]'.
+2019-05-09 15:00:00 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/indexing.py:630: SettingWithCopyWarning:
+2019-05-09 15:00:00 [ERROR] redirect -- A value is trying to be set on a copy of a slice from a DataFrame.
+2019-05-09 15:00:00 [ERROR] redirect -- Try using .loc[row_indexer,col_indexer] = value instead
+2019-05-09 15:00:00 [ERROR] redirect -- See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+2019-05-09 15:00:00 [ERROR] redirect --   self.obj[item_labels[indexer[info_axis]]] = value
+2019-05-09 15:00:00 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/indexing.py:543: SettingWithCopyWarning:
+2019-05-09 15:00:00 [ERROR] redirect -- A value is trying to be set on a copy of a slice from a DataFrame.
+2019-05-09 15:00:00 [ERROR] redirect -- Try using .loc[row_indexer,col_indexer] = value instead
+2019-05-09 15:00:00 [ERROR] redirect -- See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+2019-05-09 15:00:00 [ERROR] redirect --   self.obj[item] = s
+2019-05-09 15:00:01 [INFO] dsbox.server.ta2_servicer --     | SolutionExport invoked with rank 20.0 solution_id 5813b341-d31e-4a7a-908a-74034911cbc5
+2019-05-09 15:00:01 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 15:00:01 [INFO] dsbox.server.ta2_servicer --     | SolutionExport invoked with rank 19.99999999 solution_id 32e0855d-047d-49eb-9f4f-fa42f34c694e
+2019-05-09 15:00:01 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 15:00:01 [INFO] dsbox.server.ta2_servicer --     | SolutionExport invoked with rank 19.99999998 solution_id e2b6ff0a-3de6-47ab-b239-443bcf2de160
+2019-05-09 15:00:01 [INFO] dsbox.server.ta2_servicer --     \_____________
+2019-05-09 15:00:01 [INFO] dsbox.server.ta2_servicer --     | SolutionExport invoked with rank 19.999999969999998 solution_id b489cb71-3b30-468c-90ba-d207dfd70f7e
+2019-05-09 15:00:01 [INFO] dsbox.server.ta2_servicer --     \_____________
